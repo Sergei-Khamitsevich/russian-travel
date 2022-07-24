@@ -15,3 +15,4 @@
 10. Псеводклассы и пвсевдоэлементы
 11. Grid
 12. Адаптивная верстка
+13. Ссылка на страницу [https://sergei-khamitsevich.github.io/russian-travel/index.html]
