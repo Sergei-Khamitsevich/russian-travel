@@ -41,11 +41,11 @@
         троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и
         описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов 11</li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-item">Природных заповедников 105</li>
-          <li class="intro__list-item">Аэропортов 241</li>
+          <li class="intro__list-item">Часовых поясов <span class="intro__list-item intro__list-span">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item intro__list-span">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item intro__list-span">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list-item intro__list-span">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list-item intro__list-span">241</span></li>
         </ul>
       </section>
 
@@ -69,7 +69,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
           <div class="place__website">
-            <p class="place__website-pharagraph">URL</p>
+            <p class="place__website-pharagraph">url</p>
             <a href="http://park-kosa.ru" class="place__website-link link-opacity" target="_blank">park-kosa.ru</a>
           </div>
           <div class="place__pharagraphs">
@@ -86,7 +86,7 @@
           <h2 class="place__title">Кольский</h2>
           <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image">
           <div class="place__website">
-            <p class="place__website-pharagraph">URL</p>
+            <p class="place__website-pharagraph">url</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__website-link link-opacity" target="_blank">National Geographic</a>
           </div>
           <div class="place__pharagraphs">
@@ -103,7 +103,7 @@
           <h2 class="place__title">Алтай</h2>
           <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
           <div class="place__website">
-            <p class="place__website-pharagraph">URL</p>
+            <p class="place__website-pharagraph">url</p>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__website-link link-opacity" target="_blank">Facebook</a>
           </div>
           <div class="place__pharagraphs">
@@ -121,7 +121,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <img src="./images/place-winter-baikal.jpg" alt="зимний Байкал" class="place__image">
           <div class="place__website">
-            <p class="place__website-pharagraph">URL</p>
+            <p class="place__website-pharagraph">url</p>
             <a href="https://vk.com/baikalmile" class="place__website-link link-opacity" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <div class="place__pharagraphs">
@@ -135,7 +135,7 @@
           <h2 class="place__title">Карелия</h2>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
           <div class="place__website">
-            <p class="place__website-pharagraph">URL</p>
+            <p class="place__website-pharagraph">url</p>
             <a href="http://vodlozero.ru" class="place__website-link link-opacity" target="_blank">http://vodlozero.ru/</a>
           </div>
           <div class="place__pharagraphs">
@@ -150,21 +150,22 @@
         </article>
       </section>
 
-        <a class="cover" href="#">
+      <section class="cover">
+        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-          <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
-
+      </section cover>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__link link-opacity">Карты</li>
-        <li class="footer__link link-opacity">Погода</li>
-        <li class="footer__link link-opacity">Расписание</li>
-        <li class="footer__link link-opacity">Календарь</li>
-        <li class="footer__link link-opacity">Путешествия</li>
-      </ul>
-      <p class="footer__author link-opacity"> &copy;2022. Сергей Хамицевич</p>
+      <nav class="footer__links">
+        <a href="https://yandex.ru/maps" target="_blank" class="footer__link link-opacity">Карты</a>
+        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link-opacity">Погода</a>
+        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link link-opacity">Расписание</a>
+        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link link-opacity">Календарь</a>
+        <a href="https://travel.yandex.ru" target="_blank" class="footer__link link-opacity">Путешествия</a>
+      </nav>
+      <p class="footer__author link-opacity"> &copy; 2022. Сергей Хамицевич</p>
     </footer>
   </div>
 </body>
